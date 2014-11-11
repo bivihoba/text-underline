@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 			'bemxmlProject',							// Компилируем все страницы из BEMXML
 			'buildDeps',								// Собираем зависимости по технологиям
 			'buildUsedDeps',							// Чистим технологии, исходя их проиндексированных BEMXML-деревьев
-			'less:dev',									// Собираем стили из LESS-технологии
+			'stylus:dev',								// Собираем стили из stylus-технологии
 			'copy:getDevCSS'							// Копируем собранные стили из CSS-файлов в dev-папку
 		]
 	);
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 		'buildProjectStyles', [							// Собираем только стили (предполагаем, что XML не менялся).
 			'buildDeps',
 			'buildUsedDeps',
-			'less:dev',
+			'stylus:dev',
 			'copy:getDevCSS',
 			'csso:production'
 		]
