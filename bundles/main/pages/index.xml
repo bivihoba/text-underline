@@ -4,13 +4,106 @@
 		<include xmlns="http://www.w3.org/2001/XInclude" href="../settings.xml"/>
 	</project>
 
-	<meta>
-		<title>Page Title</title>
-		<description>Page Description</description>
-	</meta>
-
 	<templates>
-		<t:xtitle><cdata><![CDATA[Page Title]]></cdata></t:xtitle>
+		<t:xtitle><cdata><![CDATA[Text Underline Demo]]></cdata></t:xtitle>
+
+		<p:page>
+			<p:sandbox>
+				<e:column>
+					<p:test-group>						
+						<m:font-family val="verdana"/>
+						<p:reference/>	
+					</p:test-group>					
+				</e:column>
+				<e:column>
+					<p:test-group>						
+						<m:font-family val="verdana"/>
+						<p:tests/>	
+					</p:test-group>
+				</e:column>
+				<e:column>
+					<p:test-group>						
+						<m:font-family val="arial"/>
+						<p:tests/>	
+					</p:test-group>					
+				</e:column>
+				<e:column>
+					<p:test-group>						
+						<m:font-family val="arial"/>
+						<p:reference/>	
+					</p:test-group>					
+				</e:column>
+			</p:sandbox>
+		</p:page>
+
+		<t:sandbox>
+			<b:sandbox>
+				<e:content>
+					<p:content/>
+				</e:content>
+			</b:sandbox>
+		</t:sandbox>
+
+		<t:test-group>
+			<b:test-group>
+				<p:content/>
+			</b:test-group>
+		</t:test-group>
+		
+		<t:tests>
+			<b:test><m:font-size val="32" x:data-label="32"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="24" x:data-label="24"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="20" x:data-label="20"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="19" x:data-label="16"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="18" x:data-label="18"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="17" x:data-label="17"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="16" x:data-label="16"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="15" x:data-label="15"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="14" x:data-label="14"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="13" x:data-label="13"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="12" x:data-label="12"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="11" x:data-label="11"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="10" x:data-label="10"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="9"  x:data-label="9"/><p:string_style_custom-underline/></b:test>
+		</t:tests>
+		
+		<t:reference>
+			<b:test><m:font-size val="32" x:data-label="32"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="24" x:data-label="24"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="20" x:data-label="20"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="19" x:data-label="16"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="18" x:data-label="18"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="17" x:data-label="17"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="16" x:data-label="16"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="15" x:data-label="15"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="14" x:data-label="14"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="13" x:data-label="13"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="12" x:data-label="12"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="11" x:data-label="11"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="10" x:data-label="10"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="9"  x:data-label="9"/><p:string_style_standard-underline/></b:test>
+		</t:reference>
+		
+		<t:string_style_custom-underline>
+			<b:string>
+				<m:style val="custom-underline"/>
+				<p:lorem-ipsum/>
+			</b:string>
+		</t:string_style_custom-underline>
+
+		<t:string_style_standard-underline>
+			<b:string>
+				<m:style val="standard-underline"/>
+				<p:lorem-ipsum/>
+			</b:string>
+		</t:string_style_standard-underline>
+
+		<t:lorem-ipsum>
+			Дифф, друг,
+			<b:line-break/>
+			Gothic jazz
+		</t:lorem-ipsum>
+
 	</templates>
 
 	<page-canvas>
