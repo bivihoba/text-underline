@@ -28,6 +28,7 @@ module.exports = function(grunt) {
 			'buildDeps',								// Собираем зависимости по технологиям
 			'buildUsedDeps',							// Чистим технологии, исходя их проиндексированных BEMXML-деревьев
 			'stylus:dev',								// Собираем стили из stylus-технологии
+			'autoprefixer:dev',							// Добавляем вендорные префиксы
 			'copy:getDevCSS'							// Копируем собранные стили из CSS-файлов в dev-папку
 		]
 	);
@@ -47,6 +48,7 @@ module.exports = function(grunt) {
 			'buildDeps',
 			'buildUsedDeps',
 			'stylus:dev',
+			'autoprefixer:dev',
 			'copy:getDevCSS',
 			'csso:production'
 		]
