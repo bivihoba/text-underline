@@ -51,8 +51,12 @@
 		</t:test-group>
 		
 		<t:tests>
-			<b:test><m:font-size val="32" x:data-label="32"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="32" x:data-label="32"/><m:font-weight val="bold"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="24" x:data-label="24"/><m:font-weight val="bold"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="24" x:data-label="24"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="23" x:data-label="23"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="22" x:data-label="22"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="21" x:data-label="21"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="20" x:data-label="20"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="19" x:data-label="16"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="18" x:data-label="18"/><p:string_style_custom-underline/></b:test>
@@ -68,8 +72,12 @@
 		</t:tests>
 		
 		<t:reference>
-			<b:test><m:font-size val="32" x:data-label="32"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="32" x:data-label="32"/><m:font-weight val="bold"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="24" x:data-label="24"/><m:font-weight val="bold"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="24" x:data-label="24"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="23" x:data-label="23"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="22" x:data-label="22"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="21" x:data-label="21"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="20" x:data-label="20"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="19" x:data-label="16"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="18" x:data-label="18"/><p:string_style_standard-underline/></b:test>
@@ -101,7 +109,7 @@
 		<t:lorem-ipsum>
 			Дифф, друг,
 			<b:line-break/>
-			Gothic jazz
+			Egypt, joy ($200)
 		</t:lorem-ipsum>
 
 	</templates>
