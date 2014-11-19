@@ -51,49 +51,67 @@
 		</t:test-group>
 		
 		<t:tests>
-			<b:test><m:font-size val="32" x:data-label="32"/><m:font-weight val="bold"/><p:string_style_custom-underline/></b:test>
-			<b:test><m:font-size val="24" x:data-label="24"/><m:font-weight val="bold"/><p:string_style_custom-underline/></b:test>
+			<!--<b:test><m:font-size val="32" x:data-label="32"/><m:font-weight val="bold"/><p:string_style_custom-underline/></b:test>-->
+			<b:test><m:font-size val="32" x:data-label="32"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="31" x:data-label="31"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="30" x:data-label="30"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="29" x:data-label="29"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="28" x:data-label="28"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="27" x:data-label="27"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="26" x:data-label="26"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="25" x:data-label="25"/><p:string_style_custom-underline/></b:test>
+			<!--<b:test><m:font-size val="24" x:data-label="24"/><m:font-weight val="bold"/><p:string_style_custom-underline/></b:test>-->
 			<b:test><m:font-size val="24" x:data-label="24"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="23" x:data-label="23"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="22" x:data-label="22"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="21" x:data-label="21"/><p:string_style_custom-underline/></b:test>
-			<b:test><m:font-size val="20" x:data-label="20"/><m:type val="1"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="20" x:data-label="20"/><p:string_style_custom-underline/></b:test>
+			<!--<b:test><m:font-size val="20" x:data-label="20"/><m:type val="1"/><p:string_style_custom-underline/></b:test>-->
 			<!--<b:test><m:font-size val="20" x:data-label="20"/><m:type val="2"/><p:string_style_custom-underline/></b:test>-->
 			<!--<b:test><m:font-size val="20" x:data-label="20"/><m:type val="3"/><p:string_style_custom-underline/></b:test>-->
 			<b:test><m:font-size val="19" x:data-label="19"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="18" x:data-label="18"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="17" x:data-label="17"/><p:string_style_custom-underline/></b:test>
 			<b:test><m:font-size val="16" x:data-label="16"/><p:string_style_custom-underline/></b:test>
-			<!--<b:test><m:font-size val="15" x:data-label="15"/><p:string_style_custom-underline/></b:test>-->
-			<!--<b:test><m:font-size val="14" x:data-label="14"/><p:string_style_custom-underline/></b:test>-->
-			<!--<b:test><m:font-size val="13" x:data-label="13"/><p:string_style_custom-underline/></b:test>-->
-			<!--<b:test><m:font-size val="12" x:data-label="12"/><p:string_style_custom-underline/></b:test>-->
-			<!--<b:test><m:font-size val="11" x:data-label="11"/><p:string_style_custom-underline/></b:test>-->
-			<!--<b:test><m:font-size val="10" x:data-label="10"/><p:string_style_custom-underline/></b:test>-->
-			<!--<b:test><m:font-size val="9"  x:data-label="9"/><p:string_style_custom-underline/></b:test>-->
+			<b:test><m:font-size val="15" x:data-label="15"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="14" x:data-label="14"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="13" x:data-label="13"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="12" x:data-label="12"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="11" x:data-label="11"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="10" x:data-label="10"/><p:string_style_custom-underline/></b:test>
+			<b:test><m:font-size val="9"  x:data-label="9"/><p:string_style_custom-underline/></b:test>
 		</t:tests>
 		
 		<t:reference>
-			<b:test><m:font-size val="32" x:data-label="32"/><m:font-weight val="bold"/><p:string_style_standard-underline/></b:test>
-			<b:test><m:font-size val="24" x:data-label="24"/><m:font-weight val="bold"/><p:string_style_standard-underline/></b:test>
+			<!--<b:test><m:font-size val="32" x:data-label="32"/><m:font-weight val="bold"/><p:string_style_standard-underline/></b:test>-->
+			<b:test><m:font-size val="32" x:data-label="32"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="31" x:data-label="31"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="30" x:data-label="30"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="29" x:data-label="29"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="28" x:data-label="28"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="27" x:data-label="27"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="26" x:data-label="26"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="25" x:data-label="25"/><p:string_style_standard-underline/></b:test>
+			<!--<b:test><m:font-size val="24" x:data-label="24"/><m:font-weight val="bold"/><p:string_style_standard-underline/></b:test>-->
 			<b:test><m:font-size val="24" x:data-label="24"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="23" x:data-label="23"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="22" x:data-label="22"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="21" x:data-label="21"/><p:string_style_standard-underline/></b:test>
-			<b:test><m:font-size val="20" x:data-label="20"/><m:type val="1"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="20" x:data-label="20"/><p:string_style_standard-underline/></b:test>
+			<!--<b:test><m:font-size val="20" x:data-label="20"/><m:type val="1"/><p:string_style_standard-underline/></b:test>-->
 			<!--<b:test><m:font-size val="20" x:data-label="20"/><m:type val="2"/><p:string_style_standard-underline/></b:test>-->
 			<!--<b:test><m:font-size val="20" x:data-label="20"/><m:type val="3"/><p:string_style_standard-underline/></b:test>-->
 			<b:test><m:font-size val="19" x:data-label="19"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="18" x:data-label="18"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="17" x:data-label="17"/><p:string_style_standard-underline/></b:test>
 			<b:test><m:font-size val="16" x:data-label="16"/><p:string_style_standard-underline/></b:test>
-			<!--<b:test><m:font-size val="15" x:data-label="15"/><p:string_style_standard-underline/></b:test>-->
-			<!--<b:test><m:font-size val="14" x:data-label="14"/><p:string_style_standard-underline/></b:test>-->
-			<!--<b:test><m:font-size val="13" x:data-label="13"/><p:string_style_standard-underline/></b:test>-->
-			<!--<b:test><m:font-size val="12" x:data-label="12"/><p:string_style_standard-underline/></b:test>-->
-			<!--<b:test><m:font-size val="11" x:data-label="11"/><p:string_style_standard-underline/></b:test>-->
-			<!--<b:test><m:font-size val="10" x:data-label="10"/><p:string_style_standard-underline/></b:test>-->
-			<!--<b:test><m:font-size val="9"  x:data-label="9"/><p:string_style_standard-underline/></b:test>-->
+			<b:test><m:font-size val="15" x:data-label="15"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="14" x:data-label="14"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="13" x:data-label="13"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="12" x:data-label="12"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="11" x:data-label="11"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="10" x:data-label="10"/><p:string_style_standard-underline/></b:test>
+			<b:test><m:font-size val="9"  x:data-label="9"/><p:string_style_standard-underline/></b:test>
 		</t:reference>
 		
 		<t:string_style_custom-underline>
