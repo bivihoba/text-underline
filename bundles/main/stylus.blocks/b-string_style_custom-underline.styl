@@ -1,97 +1,21 @@
 .b-string {
 	&_style_custom-underline {
 		text-decoration:none;
-
-		color--u = #f00;
-
-		background-image: linear-gradient(color--u, color--u 1px, transparent 50%, transparent 100%);
-		/*background-position:0 100%;*/
-		background-position: 0 calc(0.99999em+ @css {2px});
-		background-size: 2px 2px;
-
+		background:url('data:image/gif;base64,R0lGODlhAQABAIAAAP8AAAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==');
+		background-position: 0 100%;
+		background-position: 0 calc(1em + 0.07rem);
 		background-repeat:repeat-x;
-		/*background-image:linear-gradient(color--u, color--u 50%, transparent 50%, transparent 100%);*/
 
-		/*.b-test_type_1 & {*/
-			/*background-image:linear-gradient(color--u, color--u 1px, transparent 1px, transparent 0.149em, transparent 100%);*/
-			/*background-position:0 100%;*/
-			/*background-size:1px 0.149em;*/
-		/*}*/
-		/*.b-test_type_1 & {*/
-			/*background-image: linear-gradient(color--u 0%, color--u 1px, transparent 1px, transparent 100%);*/
-			/*background-position:0 100%;*/
-			/*background-size:4px 3px;*/
-		/*}*/
-		for num in (20..21) {
-			.b-test_font-size_{num} & {
-				background-image: linear-gradient(color--u 0%, color--u 1px, transparent 1px, transparent 100%);
-				background-position:0 100%;
-				background-size:4px 3px;
-			}
+		.b-test-group_font-family_arial & {
+			background-position: 0 1em;
 		}
-		for num in (18..19) {
-			.b-test_font-size_{num} & {
-				background-image: linear-gradient(color--u 0%, color--u 1px, transparent 1px, transparent 100%);
-				background-position:0 100%;
-				background-size:4px 3px;
-			}
+	}
+}
+
+@-moz-document url-prefix() {
+	.b-string {
+		&_style_custom-underline {
+			background-position: 0 calc(1em + 2px);
 		}
-		for num in (17) {
-			.b-test_font-size_{num} & {
-				/*background-image:linear-gradient(to bottom, transparent, transparent calc(1em + 2px),color--u calc(1em + 2px), color--u 100%);*/
-				background-image: linear-gradient(color--u, color--u 2px, transparent 50%, transparent 100%);
-			    background-position: left 0 bottom 2px;
-				background-size: 2px 1px;
-			    /*background-size: 3px calc(1em + 3px);*/
-
-				/*background-position:0 calc(0.99999em + 2px);*/
-				/*background-image: linear-gradient(to bottom, red, red calc(1em + 1px), transparent calc(1em + 2px), transparent 100%);*/
-                /*background-size: 3px 1px;*/
-			}
-		}
-		for num in (16) {
-			.b-test_font-size_{num} & {
-				background-image: linear-gradient(color--u 0%, color--u 1px, transparent 1px, transparent 100%);
-				background-position:0 100%;
-				background-size:4px 2px;
-			}
-		}
-		/*.b-test-group_font-family_arial .b-test_font-size_18 &,*/
-		/*.b-test-group_font-family_arial .b-test_font-size_19 &,*/
-		/*.b-test-group_font-family_arial .b-test_font-size_20 & {*/
-			/*background-image:linear-gradient(color--u, color--u 1px, transparent 1px, transparent 0.149em, transparent 100%);*/
-			/*background-position:0 100%;*/
-			/*background-size:0.15em 0.15em;*/
-		/*}*/
-
-		/*for num in (1..32) {*/
-			/*.b-test_font-size_{num} & {*/
-				/*pos = unit(((num + 2) / num),'em');*/
-				/*background-position:0 pos;*/
-				/*background-position:0 calc(100% - @css{1px});*/
-				/*background-size: unit((2 / num),'em') unit((2 / num),'em');*/
-			/*}*/
-		/*}*/
-		/*background-size:1px 0.15em;*/
-
-		/*for num in (17..19) {*/
-			/*.b-test_font-size_{num} & {*/
-				/*background-size:1px 3px;*/
-			/*}*/
-		/*}*/
-		/*for num in (20..32) {*/
-			/*.b-test_font-size_{num} & {*/
-				/*background-size:1px 3.999999px;*/
-			/*}*/
-		/*}*/
-
-		/*.b-test_font-weight_bold.b-test_font-size_24 &,*/
-		/*.b-test_font-weight_bold.b-test_font-size_32 & {*/
-			/*background-image: linear-gradient(transparent, transparent 1px, #ff0000 1px, #ff0000 3px, transparent 3px);*/
-		/*}*/
-		/*.b-test_font-weight_bold.b-test_font-size_32,*/
-		/*.b-test_font-weight_bold.b-test_font-size_24 & {*/
-			/*background-size:1px 4px;*/
-		/*}*/
 	}
 }
