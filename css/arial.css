@@ -1,0 +1,5 @@
+
+.b-test-group_font-family_arial .b-string_style_custom-underline:not(.b-string_custom-underline_linear-gradient-medium) {
+	background-position:left 0 bottom -webkit-calc(100% - 1.01em);
+	background-position:left 0 bottom calc(100% - 1.01em)
+}

@@ -1,0 +1,5 @@
+.b-test_font-size_23 .b-string_custom-underline_linear-gradient-kizu {
+	background-image:linear-gradient(red, red 1px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 2px, transparent 2px);
+	background-size:1px 0.44em;
+	background-position:-9px 100%;
+}

@@ -1,0 +1,17 @@
+.b-test-group_font-family_verdana .b-string_style_custom-underline:not(.b-string_custom-underline_linear-gradient-medium) {
+	background-position:left 0 bottom -webkit-calc(100% - 1em - 0.07rem);
+	background-position:left 0 bottom calc(100% - 1em - 0.07rem);
+}
+
+@media only screen and (min-device-pixel-ratio:2), only screen and (min-resolution:2dppx), only screen and (-webkit-min-device-pixel-ratio:2) {
+	.b-test-group_font-family_verdana .b-string_style_custom-underline:not(.b-string_custom-underline_linear-gradient-medium) {
+		background-position:left 0 bottom -webkit-calc(100% - 1em - 0.135rem);
+		background-position:left 0 bottom calc(100% - 1em - 0.135rem)
+	}
+}
+
+@-moz-document url-prefix() {
+	.b-test-group_font-family_verdana .b-string_style_custom-underline:not(.b-string_custom-underline_linear-gradient-medium) {
+		background-position:0 calc(1em + 2px)
+	}
+}

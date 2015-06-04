@@ -1,0 +1,13 @@
+.b-string {
+	display:inline;
+}
+
+.b-string_style_standard-underline {
+	text-decoration:underline
+}
+
+.b-string_style_custom-underline {
+	text-decoration:none;
+	background-repeat:repeat-x;
+	background-position:0 100%;
+}
